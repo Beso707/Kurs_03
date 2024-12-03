@@ -1,0 +1,67 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+	//string Str = "123.456";
+
+	//int Num_int = stoi(Str);
+
+	//float Num_flo = stof(Str);
+	//double Num_do = stod(Str);
+
+
+	//cout << Num_int << endl;
+	//cout << Num_flo << endl;
+	//cout << Num_do << endl;
+
+	//int Num1=123;
+
+//	double Num2 = 18.99;
+
+//	string Str1, Str2;
+
+//	Str1 = to_string(Num1);
+//	Str2 = to_string(Num2);
+
+
+
+// 	cout << Str1 << endl;
+//	cout << Str2 << endl;
+
+
+//	string Str1 = "43.22";
+//	double Do1 = stod(Str1);
+//	float Flo1 = stof(Str1);
+//	int Int1 = stoi(Str1);
+
+
+//	cout << Str1 << endl;
+//	cout << Do1 << endl;
+//	cout << Flo1 << endl;
+//	cout << Int1 << endl;
+
+
+	int N1 = 20;
+	double N2 = 33.5;
+	float N3 = 55.23;
+
+
+	string Str1;
+	Str1 = to_string(N1);
+
+	string Str2 = to_string(N2);
+
+	string Str3 = to_string(N3);
+	int St4 = int(N3);
+
+	cout << Str1 << endl;
+	cout << Str2 << endl;
+	cout << Str3 << endl;
+	cout << St4 << endl;
+
+
+	return 0;
+}
